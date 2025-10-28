@@ -22,6 +22,8 @@ extern void test_LedTwitch_should_turn_on_led_with_1s_delay(void);
 extern void test_LedTwitch_should_turn_off_led_with_1s_delay(void);
 extern void test_LedTwitch_offusecase(void);
 extern void test_LedTwitch_onusecase(void);
+extern void test_LedTwitch_startusecase(void);
+extern void test_LedTwitch_stopusecase(void);
 
 
 /*=======Mock Management=====*/
@@ -106,6 +108,10 @@ static void run_test(UnityTestFunction func, const char* name, UNITY_LINE_TYPE l
       UNITY_PRINT_EOL();
       UnityPrint("  test_LedTwitch_onusecase");
       UNITY_PRINT_EOL();
+      UnityPrint("  test_LedTwitch_startusecase");
+      UNITY_PRINT_EOL();
+      UnityPrint("  test_LedTwitch_stopusecase");
+      UNITY_PRINT_EOL();
       return 0;
     }
     return parse_status;
@@ -115,8 +121,10 @@ static void run_test(UnityTestFunction func, const char* name, UNITY_LINE_TYPE l
   run_test(test_Blinky_NeedToImplement, "test_Blinky_NeedToImplement", 18);
   run_test(test_LedTwitch_should_turn_on_led_with_1s_delay, "test_LedTwitch_should_turn_on_led_with_1s_delay", 23);
   run_test(test_LedTwitch_should_turn_off_led_with_1s_delay, "test_LedTwitch_should_turn_off_led_with_1s_delay", 31);
-  run_test(test_LedTwitch_offusecase, "test_LedTwitch_offusecase", 41);
-  run_test(test_LedTwitch_onusecase, "test_LedTwitch_onusecase", 46);
+  run_test(test_LedTwitch_offusecase, "test_LedTwitch_offusecase", 43);
+  run_test(test_LedTwitch_onusecase, "test_LedTwitch_onusecase", 48);
+  run_test(test_LedTwitch_startusecase, "test_LedTwitch_startusecase", 53);
+  run_test(test_LedTwitch_stopusecase, "test_LedTwitch_stopusecase", 58);
 
   CMock_Guts_MemFreeFinal();
   return UNITY_END();

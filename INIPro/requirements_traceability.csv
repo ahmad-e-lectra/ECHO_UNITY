@@ -2,3 +2,7 @@ Requirement ID,Test File,Test Function
 NONE,test_Blinky.c,test_Blinky_NeedToImplement
 NONE,test_Blinky.c,test_LedTwitch_should_turn_on_led_with_1s_delay
 NONE,test_Blinky.c,test_LedTwitch_should_turn_off_led_with_1s_delay
+NONE,test_Blinky.c,test_LedTwitch_offusecase
+NONE,test_Blinky.c,test_LedTwitch_onusecase
+NONE,test_Blinky.c,test_LedTwitch_startusecase
+NONE,test_Blinky.c,test_LedTwitch_stopusecase

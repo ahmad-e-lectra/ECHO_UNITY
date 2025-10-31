@@ -1,5 +1,0 @@
----
-- build/vendor/unity/src/unity.h
-- "../src/Blinky.h"
-- mock_gpio.h
-- mock_device.h

@@ -1,0 +1,31 @@
+---
+:source:
+  :file: test/test_GPin.c
+  :dirname: test
+  :basename: test_GPin.c
+:successes:
+- :test: test_GPIO_SetPinOutput_should_call_GPIO_setDirectionMode_OUT
+  :line: 14
+  :message: ''
+  :unity_test_time: 0
+- :test: test_GPIO_SetPinInput_should_call_GPIO_setDirectionMode_IN
+  :line: 21
+  :message: ''
+  :unity_test_time: 0
+- :test: test_GPIO_ReadInputusecase
+  :line: 28
+  :message: ''
+  :unity_test_time: 0
+- :test: test_GPIO_WriteInputusecase
+  :line: 33
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.04958799999440089

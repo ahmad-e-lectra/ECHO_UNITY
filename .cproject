@@ -119,7 +119,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="device/driverlib|28003x_generic_flash_lnk.cmd|targetConfigs/TMS320F280039C_LaunchPad.ccxml" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="28003x_generic_flash_lnk.cmd|targetConfigs/TMS320F280039C_LaunchPad.ccxml|device/driverlib" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -243,7 +243,12 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="device/driverlib|28003x_generic_ram_lnk.cmd|targetConfigs/TMS320F280039C_LaunchPad.ccxml" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="iniproj/test|iniproj/build/artifacts/gcov/gcovr|targetConfigs/TMS320F280039C_LaunchPad.ccxml|iniprojFake|28003x_generic_ram_lnk.cmd|iniproj/src|iniproj/build/test/out/test_blinky|iniproj/build/gcov/out/test_blinky" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="iniprojFake/build/artifacts/gcov/gcovr"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="iniprojFake/build/gcov/out/test_blinky"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="iniprojFake/build/test/out/test_blinky"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="iniprojFake/src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="iniprojFake/test"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -368,7 +373,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="device/driverlib|28003x_generic_flash_lnk.cmd|targetConfigs/TMS320F280039C.ccxml" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="28003x_generic_flash_lnk.cmd|targetConfigs/TMS320F280039C.ccxml|device/driverlib" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -493,7 +498,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="device/driverlib|28003x_generic_ram_lnk.cmd|targetConfigs/TMS320F280039C.ccxml" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="targetConfigs/TMS320F280039C.ccxml|28003x_generic_ram_lnk.cmd|device/driverlib" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
